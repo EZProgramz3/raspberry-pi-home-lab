@@ -39,3 +39,62 @@ ul {
 li {
   margin-bottom: 0.5rem;
 }
+
+.hero {
+  position: right; /* IMPORTANT */
+}
+
+/* Position button top-right */
+.buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* =========================
+   Status Badges
+   ========================= */
+
+  position: right; /* IMPORTANT */
+}
+  
+/* Position button top-right */
+.status {
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.status.green {
+  color: #22c55e;
+  background-color: rgba(34, 197, 94, 0.1);
+}
+
+.status.red {
+  color: #ef4444;
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+.status.yellow {
+  color: #facc15;
+  background-color: rgba(250, 204, 21, 0.1);
+}
+
+/* Skills layout */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.skills-grid h3 {
+  margin-bottom: 10px;
+  color: #93c5fd; 
+}
+
+.skills-grid li {
+  background: rgba(255,255,255,0.05);
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
